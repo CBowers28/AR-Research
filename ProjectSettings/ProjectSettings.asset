@@ -134,7 +134,11 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
+  - {fileID: -1215004301646178422, guid: 3235383dc331acf4e9d5a950b5b0b11c, type: 2}
+  - {fileID: 11400000, guid: 07cc2314e458e1242b127d8a9d7188f9, type: 2}
+  - {fileID: 4698725361453491284, guid: eabc20f7fc36f964b9af320920130851, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -670,11 +674,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: ARResearch
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 00812fc5b6fedc01
   metroApplicationDescription: AR Research
   wsaImages: {}
   metroTileShortName: AR Research
@@ -691,6 +695,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
+      GazeInput: True
       SpatialPerception: True
       WebCam: True
   metroTargetDeviceFamilies: {}
